@@ -10,3 +10,11 @@ With no frontend code needed to be edited, I have built backend code to serve fu
 
 Head to (the Heroku app)[https://the-notertaker.herokuapp.com] and enjoy!
 
+Add anything else that you'd want to include, including references or links to other info.
+=======
+Head to [the Heroku app](https://the-notertaker.herokuapp.com) and enjoy!
+
+## Github link
+
+[Here you go](https://github.com/omgthegreenranger/the-notertaker)
+>>>>>>> Stashed changes
