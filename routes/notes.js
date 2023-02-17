@@ -3,13 +3,12 @@ const { readAndAppend, readFromFile } = require('../helpers/fsUtils');
 
 // GET Route to retrieve all notes
 notes.get('/', (req, res) =>
-    readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)))
+    readFromFile('./db/db.json').then((data) => res.json(data))
     );
 
 // POST Route for submitting new notes
 notes.post('/', (req, res) => {
     const { title, text } = req.body;
-    console.log(req.body);
 
     // If all the required properties are present
     if(title && text) {
